@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
       - name: mongodb 
-        image: sekharmanduri/mongodb:v1 
+        image: "sekharmanduri/mongodb: {{ .Values.statefulset.imageVersion }}"
         ports:
         - containerPort: 27017
           name: mongodb

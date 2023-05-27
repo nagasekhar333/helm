@@ -1,0 +1,6 @@
+# This file to supply mandatory metadata like name, apiversion, etc to HELM
+apiversion: v1
+name: roboshop-mongodb
+version: 0.0.1 # this is the chart version
+description: This is to understand HELM through nginx
+apiversion: 1.0.0 # This belongs to our application 
